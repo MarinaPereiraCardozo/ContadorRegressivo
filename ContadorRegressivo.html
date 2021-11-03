@@ -1,0 +1,32 @@
+<!-- /*setInterval(funcion(){}, tempo em milisegundos)*/
+Montar um cronometro que tenha um input de numero inteiro, um botão de iniciar e a contagem regressiva
+apareça embaixo.
+Dica: looping while. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="desafioCronometro.css">
+</head>
+<body>
+    <div id="tudo">
+        <div>
+            <h1 id=titulo>Contador regressivo</h1>
+        </div>
+        <div>
+            <input type="text" id="tempo"placeholder="Digite um número"/>
+        </div>
+        <div>
+            <button id="btn" onclick="iniciar()" >INICIAR</button>
+        </div>
+        <div>
+            <h1 id="contagem"></h1>
+        </div>
+    </div>
+    <script src="./desafioCronometro.js"></script>
+    </body>
+</html>

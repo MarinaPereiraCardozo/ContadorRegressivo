@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-image: url(../fotos/cronometro1-2.png);
+    background-position:center ;
+    background-attachment: fixed;
+    background-size:90%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#tudo{
+    display: inline-block;
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+    display: flex;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+    text-transform: uppercase;
+    font-size: 50px; 
+    width: 1000px;
+}
+
+#tempo{
+    display: flex;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22%;
+    width: 20%;
+    padding: 12px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#btn{
+    position:absolute;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(22, 112, 18);
+    border:outset 7px;
+    text-align: center;
+    font-size: 16px; 
+    color: white;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover{
+    filter: brightness(0.7);
+    transition: filter 0.4s;
+}
+
+#contagem{
+    position: absolute;
+    left: 51%;
+    transform: translateX(-50%);
+    color: white;
+    top: 50%;
+    text-transform: uppercase;
+    font-size: 180px; 
+}
